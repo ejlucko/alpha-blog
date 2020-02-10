@@ -1,4 +1,70 @@
-$navar-default-bg: #08088A;
+$navbar-default-bg: black;
+
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+  &:hover {
+    color: #ffffff;
+    text-decoration: none;
+  }
+}
+
+.center {
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: asset-url('Friday.jpg');
+  background-size: cover;
+  height: 750px;
+  h1 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: -1px;
+    font-weight: bold;
+  }
+  .btn-xlarge {
+    font-size: 1.7em;
+    background-color:  black;
+    &:hover {
+      background-color:  #d43f3a;
+    }
+  }
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+  a:hover {
+    color: #222;
+  }
+  small {
+    float: left;
+  }
+  ul {
+    float: right;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 15px;
+    }
+  }
+}
+
+
+
+
+
+
